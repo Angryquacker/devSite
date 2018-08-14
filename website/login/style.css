@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5294e2;
+}
+
+body {
+  height: 85vh;
+}
+
+html {
+  background-color: #4b5162;
+  min-height: 100%;
+}
+
+#navCon {
+  background-color: #383c4a; 
+  height: 15vh;
+  position: relative;
+}
+
+#cont {
+  background-color: #404552;
+  height: 10vh;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  text-align: center;
+}
+
+#cont h1 {
+  line-height: 10vh;
+  font-size: 3em;
+}
+
+#loginForm {
+  height: 70vh;
+  background-color: #383c4a;
+  width: 35%;
+  margin: auto;
+  position: relative;
+  top: 7.5vh;
+  border: 1px solid #5294e2;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#loginCon {
+  height: 100%;
+  position: relative;
+}
+
+input {
+  border: 1px solid #5294e2;
+  padding-left: 3px;
+  background-color: #404552;
+  color: white;
+  margin-left: 1vh;
+  font-size: .75em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #404552;
+  font-size: .75em;
+  border: 1px solid #5294e2;
+  padding-left: 1em;
+  padding-right: 1em;
+}
